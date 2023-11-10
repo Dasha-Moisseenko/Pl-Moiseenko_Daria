@@ -3,15 +3,15 @@
 
 #1
 n=int(input('введите n ' ))
-sp = [ int(input('введите числа массива ')) for i in range(n) ] #ввод списка
-print(sp.index(min(sp))) #определение и вывод минимального элемента и его индекса
+a = [ int(input('введите числа массива ')) for i in range(n) ] 
+print(a.index(min(a))) 
 #2
-sp1=[1,343,-1,-5,543,222,-44]
-sp2=[];sp3=[] #создание списков
-for i in sp1: #определение пложительное число или отрицательное и распределение по спискам
+a1=[1,3434,-17,53,54,-22,-44]
+a2=[];a3=[] 
+for i in a1: 
     if i>0:
-        sp2.append(i)
+        a2.append(i)
     elif i<0:
-        sp3.append(i)
-print(sp2)
-print(sp3)
+        a3.append(i)
+print(a2)
+print(a3)
