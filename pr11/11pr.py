@@ -45,8 +45,8 @@ def Opfl():
 
 
 win = tk.Tk()
-win.title('Вкладка')
-win.geometry('500x500')
+win.title('Моисеенко-Дарья-Вячеславовна')
+win.geometry('800x800')
 
 
 nbk = ttk.Notebook(win)
@@ -93,7 +93,7 @@ chek1.grid(row=1, column=0)
 chek2.grid(row=2, column=0)
 chek3.grid(row=3, column=0)
 
-btn2 = tk.Button(tab2, text='Имя кнопки', command=ChBs)
+btn2 = tk.Button(tab2, text='Выбрать', command=ChBs)
 btn2.grid(row=2, column=1)
 
 menu = tk.Menu(win)
